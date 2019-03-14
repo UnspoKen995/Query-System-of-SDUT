@@ -1,0 +1,4 @@
+/* pages/discuss/text/text.wxss */
+.textbox{
+  height: 85vh !important;
+}

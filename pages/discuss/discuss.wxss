@@ -1,0 +1,5 @@
+/* pages/discuss/discuss.wxss */
+.discussbtn{
+  left: 60vw;
+
+}

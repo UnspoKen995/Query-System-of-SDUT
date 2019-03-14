@@ -1,0 +1,134 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.94",
+	"appid": "wx3b6d3f383dd17119",
+	"projectname": "project",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 13,
+			"list": [
+				{
+					"id": -1,
+					"name": "grade",
+					"pathName": "pages/grade/grade",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "course",
+					"pathName": "pages/course/course",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "check",
+					"pathName": "pages/check/check",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "info",
+					"pathName": "pages/info/info",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "notice",
+					"pathName": "pages/notice/notice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/course/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "resource",
+					"pathName": "pages/resource/resource",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "video",
+					"pathName": "pages/resource/video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "files",
+					"pathName": "pages/resource/files",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "questions",
+					"pathName": "pages/questions/questions",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "text",
+					"pathName": "pages/questions/text/text",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "discuss",
+					"pathName": "pages/discuss/discuss",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "discuss-text",
+					"pathName": "pages/discuss/text/text",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "release",
+					"pathName": "pages/discuss/release/release",
+					"scene": null
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/grade/grade",
+    "pages/course/login",
+    "pages/course/course",
+    "pages/check/check",
+    "pages/info/info",
+    "pages/notice/notice",
+    "pages/resource/resource",
+    "pages/resource/video",
+    "pages/resource/files",
+    "pages/questions/questions",
+    "pages/questions/text/text",
+    "pages/discuss/discuss",
+    "pages/discuss/text/text",
+    "pages/discuss/release/release"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#10AEFF",
+    "navigationBarTitleText": "文思海辉-SDUT",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/resource/resource",
+      "text": "视频直播",
+      "iconPath": "pages/images/video.png",
+      "selectedIconPath": "pages/images/video (1).png"
+    },
+    {
+      "pagePath": "pages/resource/video",
+      "text": "视频点播",
+      "iconPath": "pages/images/play-square (1).png",
+      "selectedIconPath": "pages/images/play-square.png"
+    },
+    {
+      "pagePath": "pages/resource/files",
+      "text": "教学资源",
+      "iconPath": "pages/images/read.png",
+      "selectedIconPath": "pages/images/read (1).png"
+    }
+    ]
+  }
+}

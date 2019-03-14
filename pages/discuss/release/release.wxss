@@ -1,0 +1,4 @@
+/* pages/discuss/release/release.wxss */
+.weui-btn{
+  background-color: #10AEFF!important;
+}

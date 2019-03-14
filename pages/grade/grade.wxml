@@ -1,0 +1,40 @@
+<!--pages/grade/grade.wxml-->
+<view class="page">
+    <view class='getinfo'>
+         <view class="userinfo">
+          <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"        bindgetuserinfo="getUserInfo" class='getinfobtn'> 获取头像昵称 </button>
+          <block wx:else>
+          <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+          <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+          </block>
+        </view> 
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">姓名</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" name="room" placeholder="请输入姓名" />
+      </view>
+    </view>
+     <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">学号</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" name="room" placeholder="请输入学号" />
+      </view>
+    </view>
+  </view>
+  <view class="weui-btn-area">
+    <button class="weui-btn" type="primary" form-type='submit'>确定</button>
+  </view>
+  <view class="weui-footer">
+            <view class="weui-footer__links">
+                <navigator url='' class="weui-footer__link">SDUT</navigator>
+                <view bindtap='bindToEmail' class="weui-footer__link">文思海辉</view>
+            </view>
+            <view class="weui-footer__text">Copyright © UnspoKen</view>
+    </view>
+</view>
